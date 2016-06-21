@@ -1,0 +1,63 @@
+### Git behavior
+[core]
+
+  # Commit message editor
+  editor = vim
+  # Don't paginate output by default
+  pager = cat
+
+  # User ignore file
+  excludesFile = ~/.dotfiles/git/gitignore
+  # User attributes file
+  attributesFile = ~/.dotfiles/git/gitattributes
+
+  # Automatic conversion of Windows line-ending chars to Unix's ones on unpack
+  autocrlf = input
+
+  # Compress level of repository data
+  compression = 9
+
+[merge]
+  # Disable fast-forward (force creation of an extra merge commit on each merge)
+  ff = false
+  # Populate merge commit message with a shortlog of merged commits (max 20)
+  log = true
+
+[fetch]
+  # Auto-fetch submodule changes (sadly, won't auto-update)
+  recurseSubmodules = on-demand
+
+[grep]
+  # Consider most regexes to be ERE
+  extendedRegexp = true
+
+[log]
+  # Use abbrev SHAs whenever possible/relevant instead of full 40 chars
+  abbrevCommit = true
+
+[status]
+  # Display submodule rev change summaries in status
+  submoduleSummary = true
+  # Recursively traverse untracked directories to display all contents
+  showUntrackedFiles = all
+
+[diff]
+  # Use mnemonc prefixes when showing diff: (i)ndex, (w)ork tree, (c)ommit, (o)bject
+  mnemonicprefix = true
+  # Show renames/moves as such
+  renames = true
+  # When using --word-diff, assume --word-diff-regex=.
+  wordRegex = .
+  # Display submodule-related information (commit listings)
+  submodule = log
+
+[mergetool]
+  # Clean up backup files created by merge tools on tool exit
+  keepBackup = false
+  # Clean up temp files created by merge tools on tool exit
+  keepTemporaries = false
+  # Put the temp files in a dedicated dir anyway
+  writeToTemp = true
+  # Auto-accept file prompts when launching merge tools
+  prompt = false
+

@@ -1,0 +1,36 @@
+### Aliases
+[alias]
+
+  st = status
+  ci = commit
+  oops = commit --amend --no-edit
+
+
+  ## Logs
+  # Pretty git log with branch tree
+  lg = log --graph --date=relative --pretty=tformat:'%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%an %ad)%Creset'
+  # View the log and diff for a commit (previous if no SHA1 provided)
+  details = log -n1 -p --format=fuller
+
+
+  ## Index managment
+  # Remove deleted files
+  r = !git ls-files -z --deleted | xargs -0 git rm
+  a = add --all
+
+
+  ## Branches & Tags
+  branches = branch -avv
+  tags = tag -l
+
+
+  ## Prompt utility
+  # Return the repository's root directory
+  root = rev-parse --show-toplevel
+  # Return the name of current branch
+  branchname = !git branch | grep "^*" | awk '{ print $2 }'
+
+
+  # Show all of my configured aliases
+  aliases = !git config --list | grep 'alias\\.' | sed 's/alias\\.\\([^=]*\\)=\\(.*\\)/\\1\\ \t => \\2/' | sort
+

@@ -1,0 +1,10 @@
+#
+# Git configuration for Bash
+#
+
+# Enable auto-completion
+source /usr/share/git/completion/git-completion.bash
+
+# Enable git prompt
+source /usr/share/git/completion/git-prompt.sh
+

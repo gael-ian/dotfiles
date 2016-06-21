@@ -1,0 +1,9 @@
+#
+# SSH configuration for Bash
+#
+
+## Add public keys for ssh Agent Forwarding
+
+# Github key for 'gael-ian' account
+[[ -s "$HOME/.ssh/github.gael-ian.rsa" ]] && ssh-add $HOME/.ssh/github.gael-ian.rsa
+
