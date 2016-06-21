@@ -1,0 +1,10 @@
+# Identity
+[user]
+  name = Gaël-Ian Havard
+  email = gaelian.havard@gmail.com
+
+# Other configurations
+[include]
+  path = ~/.dotfiles/config/git/ui
+  path = ~/.dotfiles/config/git/core
+  path = ~/.dotfiles/config/git/aliases

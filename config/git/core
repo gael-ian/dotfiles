@@ -7,9 +7,9 @@
   pager = cat
 
   # User ignore file
-  excludesFile = ~/.dotfiles/git/gitignore
+  excludesFile = ~/.dotfiles/config/git/repositories/ignore
   # User attributes file
-  attributesFile = ~/.dotfiles/git/gitattributes
+  attributesFile = ~/.dotfiles/config/git/repositories/attributes
 
   # Automatic conversion of Windows line-ending chars to Unix's ones on unpack
   autocrlf = input

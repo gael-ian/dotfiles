@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+if [ -z "$1" ]; then 
+  echo Usage: $0 program
+  echo Available programs: $(ls ~/.dotfiles/stows)
+  exit
+fi
+
+stow --dir=$HOME/.dotfiles/stows/ --target=$HOME/ --verbose $1
