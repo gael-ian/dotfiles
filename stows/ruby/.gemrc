@@ -1,0 +1,8 @@
+---
+:verbose: true
+
+# Force specification of gem server host on push
+:disable_default_gem_server: true
+
+# Default options for Rubygems commands
+gem: --no-ri --no-rdoc
