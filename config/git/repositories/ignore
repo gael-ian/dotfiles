@@ -15,6 +15,7 @@ vendor/bundle/*
 .~lock.*
 .tmp*
 **.orig
+*.kate-swp
 
 ### OS temporary files
 
@@ -29,5 +30,6 @@ vendor/bundle/*
 Thumbs.db
 
 ## Linux
+.directory
 *~
 .Trash-*
