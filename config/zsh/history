@@ -1,0 +1,13 @@
+#
+# History configuration for Zsh
+#
+
+# Relocate history file
+HISTFILE=~/.history/zsh
+
+# History size (default)
+HISTSIZE=1000
+SAVEHIST=1000
+
+# Omit duplicates from history
+setopt hist_ignore_all_dups hist_find_no_dups

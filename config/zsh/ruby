@@ -1,0 +1,8 @@
+# Enable shims and autocompletion add to your profile:
+if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+
+# Aliases for Ruby development
+alias be='bundle exec'
+alias bi='bundle install --jobs=$(nproc) --path=vendor/bundle --clean'
+alias bo="bundle open"
+alias bu='bundle update'
