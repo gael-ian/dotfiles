@@ -16,10 +16,11 @@
 # - shapeshifter
 # - summerfruit
 # 
-base16_theme="shapeshifter"
-base16_variant="dark"
 
-BASE16_SHELL="$HOME/.dotfiles/externals/base16-shell/base16-$base16_theme.$base16_variant.sh"
-[[ -s $BASE16_SHELL ]] && source $BASE16_SHELL
+theme="shapeshifter" # Remember to edit stows/neovim/.config/nvom/config/ui.vim
+variant="dark"
 
-unset BASE16_SHELL
+base16_shell="$HOME/.dotfiles/externals/base16-shell/base16-$theme.$variant.sh"
+[[ -s $base16_shell ]] && source $base16_shell
+
+unset base16_shell

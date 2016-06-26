@@ -9,7 +9,7 @@ Packages (for Archlinux):
 * GNU Stow: `stow`
 * Zsh: `zsh zsh-completions`
 * Ruby: `rbenv-git ruby-build` (both from AUR)
-* NeoVim: `neovim powerline powerline-fonts powerline-vim`
+* NeoVim: `neovim powerline-fonts`
 
 ## Installation
 
@@ -19,7 +19,12 @@ Packages (for Archlinux):
     # Clone externals submodules
     cd ~/.dotfiles
     git submodule update --init
-    
+
+    # Install the Dein plugin manager for neovim (if you need neovim)
+    curl https://raw.githubusercontent.com/Shougo/dein.vim/master/bin/installer.sh > installer.sh
+    mkdir -p ~/.config/nvim/bundle
+    sh ./installer.sh ~/.config/nvim/bundle
+
     # Create links in $HOME for all supported programs
     for program in $(ls ~/.dotfiles/stows/); do ~/.dotfiles/dot-stow $program; done
     
