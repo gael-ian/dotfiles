@@ -1,3 +1,6 @@
 [submodule "externals/oh-my-zsh"]
 	path = externals/oh-my-zsh
 	url = git://github.com/robbyrussell/oh-my-zsh.git
+[submodule "externals/base16-shell"]
+	path = externals/base16-shell
+	url = git@github.com:chriskempson/base16-shell.git

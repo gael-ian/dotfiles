@@ -1,0 +1,25 @@
+#
+# Base16-Shell configuration for Zsh
+#
+
+# Interesting themes:
+#
+# - 3024
+# - atelierforest
+# - atelierseaside
+# - brewer
+# - bright
+# - colors
+# - londontube
+# - marrakesh
+# - monokai
+# - shapeshifter
+# - summerfruit
+# 
+base16_theme="shapeshifter"
+base16_variant="dark"
+
+BASE16_SHELL="$HOME/.dotfiles/externals/base16-shell/base16-$base16_theme.$base16_variant.sh"
+[[ -s $BASE16_SHELL ]] && source $BASE16_SHELL
+
+unset BASE16_SHELL
