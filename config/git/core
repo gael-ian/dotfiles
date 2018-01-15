@@ -18,8 +18,7 @@
   compression = 9
 
 [merge]
-  # Disable fast-forward (force creation of an extra merge commit on each merge)
-  ff = false
+  tool = vimdiff
   # Populate merge commit message with a shortlog of merged commits (max 20)
   log = true
 
@@ -60,4 +59,3 @@
   writeToTemp = true
   # Auto-accept file prompts when launching merge tools
   prompt = false
-
