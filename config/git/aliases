@@ -5,6 +5,8 @@
   ci = commit
   oops = commit --amend --no-edit
 
+  ## Pull
+  pullr = pull --rebase
 
   ## Logs
   # Pretty git log with branch tree
