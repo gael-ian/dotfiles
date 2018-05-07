@@ -1,0 +1,2 @@
+# Ensure Cargo is in the PATH
+export PATH="$HOME/.cargo/bin:$PATH"
