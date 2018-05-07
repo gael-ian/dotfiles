@@ -36,3 +36,6 @@ Thumbs.db
 .directory
 *~
 .Trash-*
+
+## Fuse
+# .fuse_hidden*
