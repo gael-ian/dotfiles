@@ -10,6 +10,12 @@
 .bundle/*
 vendor/bundle/*
 
+
+### Node.js versions manager
+
+.nvmrc
+
+
 ### Editors meta-data
 .idea/*
 
@@ -19,6 +25,7 @@ vendor/bundle/*
 .tmp*
 **.orig
 *.kate-swp
+
 
 ### OS temporary files
 
