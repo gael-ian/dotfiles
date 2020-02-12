@@ -11,3 +11,6 @@ SAVEHIST=1000
 
 # Omit duplicates from history
 setopt hist_ignore_all_dups hist_find_no_dups
+
+# Keep track of the last directory when opening new tabs in Gnome-Terminal
+[ -f /etc/profile.d/vte.sh ] && . /etc/profile.d/vte.sh
