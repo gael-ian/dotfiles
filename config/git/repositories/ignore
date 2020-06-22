@@ -5,7 +5,7 @@
 .ruby-gemset
 .rbenv-version
 
-### bundler
+### Ruby bundler
 
 .bundle/*
 vendor/bundle/*
@@ -14,6 +14,11 @@ vendor/bundle/*
 ### Node.js versions manager
 
 .nvmrc
+
+
+### Python virtualenv
+
+/env
 
 
 ### Editors meta-data
