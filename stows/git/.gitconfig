@@ -1,7 +1,7 @@
 # Identity
 [user]
-  name = Gaël-Ian Havard
-  email = gaelian.havard@gmail.com
+	name = Gaël-Ian Havard
+	email = gaelian.havard@gmail.com
 
 # Other configurations
 [include]
