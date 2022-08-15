@@ -3,6 +3,6 @@ if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
 # Aliases for Ruby development
 alias be='bundle exec'
-alias bi='bundle install --jobs=$(nproc) --path=vendor/bundle --clean'
+alias bi='bundle install --jobs=$(nproc)'
 alias bo="bundle open"
 alias bu='bundle update'
