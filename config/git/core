@@ -17,6 +17,9 @@
   # Compress level of repository data
   compression = 9
 
+[init]
+  defaultBranch = main
+
 [merge]
   tool = vimdiff
   # Populate merge commit message with a shortlog of merged commits (max 20)
