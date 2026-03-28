@@ -1,2 +1,0 @@
-# Ensure modules installed by pip with '--user' are in the PATH
-export PATH="$HOME/.local/bin:$PATH"

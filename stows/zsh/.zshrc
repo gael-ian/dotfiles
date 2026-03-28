@@ -8,7 +8,7 @@ ZSH_THEME="avit"
 # $ZSH_CUSTOM folder, with .zsh extension.
 ZSH_CUSTOM="$HOME/.dotfiles/config/zsh"
 
-plugins=(git command-not-found)
+plugins=(command-not-found git mise)
 
 # Cache settings
 ZSH_CACHE_DIR="${XDG_CACHE_HOME:-$HOME/.cache}/ohmyzsh"
