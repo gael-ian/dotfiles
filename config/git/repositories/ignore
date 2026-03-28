@@ -1,31 +1,18 @@
-### Ruby versions managers
-
-.rvmrc
-.ruby-version
-.ruby-gemset
-.rbenv-version
+### Mise
+mise.toml
 
 ### Ruby bundler
+.bundle/
+vendor/bundle/
 
-.bundle/*
-vendor/bundle/*
-
-
-### Node.js versions manager
-
-.nvmrc
-
-
-### Python virtualenv
-
-/env
-
+### Yarn
+node_modules/
+.yarn/
 
 ### Editors meta-data
 .idea/*
 
 ### Mess files
-
 .~lock.*
 .tmp*
 **.orig
