@@ -1,3 +1,6 @@
 [settings]
-# tools can read the versions files used by other version managers
+# Tools can read the versions files used by other version managers.
 idiomatic_version_file_enable_tools = ['node', 'ruby']
+
+# Paranoid mode forces trusting config files on any changes.
+paranoid = true

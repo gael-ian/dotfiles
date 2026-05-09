@@ -4,30 +4,23 @@
 
 Packages (for Archlinux):
 
-* Fonts: `ttf-dejavu`
 * Git: `git`
 * GNU Stow: `stow`
+* Mise: `mise`
 * Zsh: `zsh zsh-completions`
-* Ruby: `rbenv-git ruby-build` (both from AUR)
+* [Oh my zsh](https://ohmyz.sh/)
 
 ## Installation
 
     # Clone dotfiles from repository
     git clone {repo-url} ~/.dotfiles
 
+    # Configure git user
+    cp ~/.dotfiles/config/git/user.example ~/.dotfiles/config/git/user
+    nano ~/.dotfiles/config/git/user
+
     # Create links in $HOME for all supported programs
     for program in $(ls ~/.dotfiles/stows/); do ~/.dotfiles/dot-stow $program; done
     
     # Or create a link for a specific program
     ~/.dotfiles/dot-stow {program}
-
-## Other configurations
-
-These settings can't be applied trough dotfiles.
-
-### Monospace Font for terminals and editors
-
-* Font: DejaVu Sans Mono
-* Size: 11
-
-Use `gnome-tweak-tool` to change Gnome 3 default fonts.
